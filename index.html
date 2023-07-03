@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font-awasome-->
+    <link rel="stylesheet" href="../portfoliowebsite/fontawesome/css/all.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span class="M">M</span>BARRY<span class="M">..</span></h1>
+                <ul id="sidebar">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Service">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="Fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="Fas fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <h1>I'm Mohamed Barry <br />from freetown a</h1>
+                <p class="header-P">FrontEnd web-Developer</p>
+
+            </div>
+
+        </div>
+    </div>
+    <!---About Section-->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="../portfoliowebsite/images/IMG_E8743.JPG" class="images" />
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-tittle">About Me</h2>
+                    <p>
+                        Hey there! I'm a front-end web developer with over a year of experience under my belt. I love
+                        designing and building engaging websites that captivate users. Learning about new technologies
+                        and upping my game is what keeps me going. Overall, I'm just a tech enthusiast who loves what I
+                        do!
+                    </p>
+                    <div class="tag-tittles">
+                        <p class="tag-link active-link" onclick="opentab('skills')">
+                            Skills
+                        </p>
+                        <p class="tag-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tag-contents active-tag" id="skills">
+                        <ul>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>JavaScrip</li>
+                            <li>Bootstrap</li>
+                            <li>Adobe Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="tag-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2023</span><br />currently a year 3 Student at Unimtech
+                                University pursuring a Bsc course in Management Information System.
+                            </li>
+                            <li>
+                                <span>2020</span><br />I complete high school at Ahmadiyya
+                                Senior Secondary School with 7credit in the WASSCE.
+                            </li>
+                            <br>
+
+                        </ul>
+                        <a href="" download class="btn2">Download CV <i class="fa-solid fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------services -->
+    <div id="Service">
+        <div class="container">
+            <h2 class="sub-tittle-S">Services</h2>
+            <div class="service-list">
+                <div class="list-one">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Development</h2>
+                    <div class="layer">
+                        <p> As a front-end web developer with over a year of experience, I love building
+                            Stunning Websites,
+                            and Delivered Fast
+                            I build awesome websites that are interactive and engaging, using the latest technologies
+                            and my
+                            creative skills.
+
+
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="list-one">
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Graphic Design</h2>
+                    <div class="layer">
+                        <p>
+                            Design that pops, without hassle!
+                            I offer graphic design services that turn your ideas into visually stunning creations—let's
+                            make
+                            something awesome together!
+                            #LetsGetCreative #GraphicDesign #DesignForYou
+                        </p>
+                    </div>
+
+                </div>
+                <div class="list-one">
+                    <i class="fa-solid fa-mobile-screen"></i>
+
+                    <h2>Responsive Development</h2>
+                    <div class="layer">
+                        <p>
+                            Mobile-Friendly Websites Done Right
+                            I can create a responsive design for your website that will look great on any device! 📱💻
+                            Let's
+                            make sure your site is user-friendly...
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------Portfolio --->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-tittle-S">Project</h1>
+            <h4 class="small-tittle">click to view</h4>
+            <div class="Project-list">
+                <div class="pro-one">
+                    <img src="../portfoliowebsite/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg" alt=""
+                        class="images-P">
+                    <div class="type-list">
+                        <h3><a href="#" class="sites">E-commerce website</a></h3>
+                        <p class="P">It an B2B website with admin panel, intractive website help buyers buy good easily
+                        </p>
+
+
+                    </div>
+                </div>
+                <div class="pro-one">
+                    <img src="../portfoliowebsite/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg" alt=""
+                        class="images-P">
+                    <div class="type-list">
+                        <h3><a href="#" class="sites">E-commerce website</a></h3>
+                        <p class="P">It an B2B website with admin panel, intractive website help buyers buy good easily
+                        </p>
+
+
+                    </div>
+                </div>
+                <div class="pro-one">
+                    <img src="../portfoliowebsite/images/daniel-korpai-pKRNxEguRgM-unsplash.jpg" alt=""
+                        class="images-P">
+                    <div class="type-list">
+                        <h3><a href="#" class="sites">E-commerce website</a></h3>
+                        <p class="P">It an B2B website with admin panel, intractive website help buyers buy good easily
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact-->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@billohbarrie02@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+23232929384</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text" name="Name" placeholder="Full Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn3">submit</button>
+                    </form>
+                    <h3 id="Msg"></h3>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p class="">Copyright by &copy; <span class="M">M</span>BARRY <i class="fa-solid fa-hand-peace"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        /* onclick function for About section */
+        var taglinks = document.getElementsByClassName("tag-link");
+        var tagcontents = document.getElementsByClassName("tag-contents");
+        function opentab(tabname) {
+            for (taglink of taglinks) {
+                taglink.classList.remove("active-link");
+            }
+            for (tagcontent of tagcontents) {
+                tagcontent.classList.remove("active-tag");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tag");
+        }
+        /* sidebar menu open and close function */
+        var sidebar = document.getElementById("sidebar");
+
+        function openmenu() {
+            sidebar.style.right = "0";
+        }
+        function closemenu() {
+            sidebar.style.right = "-200px";
+        }
+        /* Google sheet */
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbwzCYijQ8FRBA6T7G_mfycStkDVobwrpLO5bVXGn7kH2gCVZwcXyTShXpILejjJ-GT7/exec>'
+        const form = document.forms['submit-to-google-sheet']
+        const Msg = document.getElementById("Msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    Msg.innerHTML = "This form is connected with Google sheet. You can contact me through the other links Thanks"
+                    setTimeout(function () {
+                        Msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
